@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: Afficher un message de bienvenue
         run: echo "Hello World!"
+      - name: Afficher la date courante
+        run: date
