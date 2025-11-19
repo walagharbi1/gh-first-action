@@ -13,3 +13,7 @@ jobs:
         run: echo "Done - Bye"
       - name: Afficher la date courante
         run: date
+      - name: Messages multiples
+        run: |
+         echo "Premier message"
+         echo "Deuxième message"
